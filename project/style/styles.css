@@ -41,12 +41,19 @@ img{
     flex-direction: column;
     align-items: center;
 }
+.product{
+    display: flex;
+    top: 40%;
+    position: absolute;
+    justify-content: space-between; 
+    
+}
 .product__wrap{
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: absolute;
-    top: 40%;
+   margin: 0 50px 0 50px;
+   
        
 }
 .product__icon:hover{
@@ -63,6 +70,7 @@ img{
     font-size: 16px;
     width: 80px;
     height: 30px;
+    margin: 10px 0 10px 0;
 
 }
 .product__button_buy:hover{
