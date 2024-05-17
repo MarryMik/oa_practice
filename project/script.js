@@ -14,3 +14,5 @@ const detail_butt1 = document.getElementsByClassName("product__href_details")[0]
                     'ageCategory': 'child'
                 })
         })
+
+        
