@@ -23,6 +23,23 @@
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
         gtag('config', 'G-ZDR2R7EK0X');
+
+        const detail_butt1 = document.getElementsByClassName("product__href_details")[0];
+        detail_butt.addEventListener("click", function (e) {
+            dataLayer.push({
+                    'productCategory': 'wish',
+                    'ageCategory': 'adult'
+                })
+                alert("Категорія товару - Wish, Вікова категорія - adult ");
+        })
+        const detail_butt2 = document.getElementsByClassName("product__href_details")[1];
+        detail_butt.addEventListener("click", function (e) {
+            dataLayer.push({
+                    'productCategory': 'greetings',
+                    'ageCategory': 'child'
+                })
+                alert("Категорія товару - greetings, Вікова категорія - child ");
+        })
     </script>
 </head>
 
@@ -53,10 +70,7 @@
                 ><button class="product__button_buy">Купити</button></a>
 
                 <a class="product__href_buy product__href_details"
-                onClick="dataLayer.push({
-                    'productCategory': 'wish',
-                    'ageCategory': 'adult'
-                })"
+                
                 ><button class="product__button_buy product__button_details"  >Деталі</button></a>
             </div>
             
@@ -65,11 +79,8 @@
                 <p class="product__text">Present-card</p>
                 <a href="greetings.html" class="product__href_buy product__href_buy"
                 ><button class="product__button_buy">Купити</button></a>
-                <a href="details.html" class="product__href_details"
-                onClick="dataLayer.push({
-                    'productCategory': 'greetings',
-                    'ageCategory': 'child'
-                })"
+                <a  class="product__href_details"
+                
                 ><button class="product__button_buy product__button_details">Деталі</button></a>
             </div>
             
