@@ -23,6 +23,7 @@
 
        gtag('config', 'G-ZDR2R7EK0X');
    </script>
+   <script>dataLayer = [];</script>
 </head>
 <body>
     <!-- Google Tag Manager (noscript) -->
@@ -53,6 +54,12 @@
                 </div>
             </div>
             <a href="/"><button class="wish__button"><p class="wish__thanks">Thanks:)</p></button></a>
+            <a href="/" class="product__href_buy product__href_details"
+                onClick="dataLayer.push({
+                    'productCategory': 'wish',
+                    'ageCategory': 'adult'
+                })"
+                ><button class="product__button_buy ">Деталі</button></a>
         </div>
     </div>
 </body>
