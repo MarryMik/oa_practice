@@ -20,7 +20,6 @@
         gtag('js', new Date());
         gtag('config', 'G-ZDR2R7EK0X');
     </script>
-    <script>dataLayer = [];</script>
 </head>
 
 <body >
@@ -50,11 +49,11 @@
                 ><button class="product__button_buy">Купити</button></a>
 
                 <a href="/" class="product__href_buy product__href_details"
-               
-                ><button class="product__button_buy "  onClick="dataLayer.push({
+                onClick="dataLayer.push({
                     'productCategory': 'wish',
                     'ageCategory': 'adult'
-                })" >Деталі</button></a>
+                })"
+                ><button class="product__button_buy "  >Деталі</button></a>
             </div>
             <!--
             <div class="product__wrap">
