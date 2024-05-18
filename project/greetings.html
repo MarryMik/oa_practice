@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <script>
-        var productPrice = document.URL.match(/price=([^&]+)/);
+        var productPrice = document.URL.match(/price=([^&]+)[#]/);
         dataLayer=[{'productValue':productPrice}];
     </script>
     <!-- Google Tag Manager -->
