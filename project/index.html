@@ -53,7 +53,10 @@
                 ><button class="product__button_buy">Купити</button></a>
 
                 <a class=" product__href_details"
-                
+                onClick=" dataLayer.push({
+                    'productCategory': 'wish',
+                    'ageCategory': 'adult'
+                })"
                 ><button class="product__button_buy product__button_details"  >Деталі</button></a>
             </div>
             
@@ -63,7 +66,10 @@
                 <a href="greetings.html?price=5#greetings" class="product__href_buy product__href_buy"
                 ><button class="product__button_buy">Купити</button></a>
                 <a  class="product__href_details"
-                
+                onClick="dataLayer.push({
+                    'productCategory': 'greetings',
+                    'ageCategory': 'child'
+                })"
                 ><button class="product__button_buy product__button_details">Деталі</button></a>
             </div>
             
